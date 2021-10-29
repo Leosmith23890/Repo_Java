@@ -1,3 +1,3 @@
 # Repo_Java
-Java Repository Siva
+Java Repository
 Folder to Java projects
