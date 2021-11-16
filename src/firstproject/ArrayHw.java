@@ -50,7 +50,7 @@ public class ArrayHw {
         String Sentence3AfterSplit = (Arrays.toString(afterSplitOfSentence3));
         System.out.println("The Sentence after split by space is : "+ (Sentence3AfterSplit));
         for (int j=0;j< afterSplitOfSentence3.length;j++){
-            String abbre2 =afterSplitOfSentence3[j];
+           String abbre2 =afterSplitOfSentence3[j];
             System.out.print(abbre2.charAt(0));}
 
 
