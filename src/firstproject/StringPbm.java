@@ -35,6 +35,18 @@ public class StringPbm {
                 System.out.print(printValue);
 
             }
+        String sentence71 = "your numbER IS BusY";
+        System.out.println("\nThe sentence is : " + sentence71);
+        String sentence7ToLowerCase = sentence71.toLowerCase();
+        String[] afterSplitOfSentence777 = sentence7ToLowerCase.split(" ");
+        String Sentence71AfterSplit = (Arrays.toString(afterSplitOfSentence777));
+        System.out.println("The Sentence after split by space is : " + (Sentence71AfterSplit));
+
+        for (int i = 0; i <= afterSplitOfSentence777.length - 1; i++) {
+            String xyz = "";
+            xyz += afterSplitOfSentence777[i].substring(0,1).toUpperCase()+afterSplitOfSentence777[i].substring(1) + " ";
+            System.out.print(xyz);
+        }
         }
     }
 
