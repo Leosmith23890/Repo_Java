@@ -6,12 +6,12 @@ public class TwoStringCompare {
     public static void main(String[] args) {
 
         String[] a1 = {"alpha", "Beta", "Cathy", "David"};
-        String[] a2 = {"Alpha", "beta", "Ice", "dove"};
+        String[] a2 = {"Alpha", "beta", "Ice", "david"};
         String a1S = Arrays.toString(a1);
         String a2S = Arrays.toString(a2);
         System.out.println(a1S);
         System.out.println(a2S);
-        String convert1 = a1S.toLowerCase();
+      String convert1 = a1S.toLowerCase();
         String convert2 = a2S.toLowerCase();
         System.out.println("after conversion" + convert1);
         System.out.println("after conversion" + convert2);
@@ -25,10 +25,8 @@ public class TwoStringCompare {
               if(spl1[i].contains(spl2[j])) {
                     System.out.println(spl1[i]);
 
-
+break;
                 }
 
         }}}}
-
-
 
