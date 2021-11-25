@@ -38,8 +38,9 @@ public class ArrayHw {
             String Sentence2AfterSplit = (Arrays.toString(afterSplitOfSentence2));
             System.out.println("The Sentence after split by space is : "+ (Sentence2AfterSplit));
             for (int j=0;j< afterSplitOfSentence2.length;j++){
-                String abbre1 =afterSplitOfSentence2[j];
-                System.out.print(abbre1.charAt(0));
+                String abbre1 ="";
+                abbre1+=afterSplitOfSentence2[j].charAt(0);
+                System.out.print(abbre1);
 
         }
 
