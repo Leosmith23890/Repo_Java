@@ -25,8 +25,15 @@ public class TwoStringCompare {
               if(spl1[i].contains(spl2[j])) {
                     System.out.println(spl1[i]);
 
-break;
-                }
+                  for (int k = 0; k < a1.length; i++) {
+                      for (int l = 0; l < a2.length; l++) {
+                          if (a1[k].equalsIgnoreCase(a2[j])) {
+                              System.out.println(a1[i]);
 
-        }}}}
+                          }
 
+                      }}}}
+
+        }
+    }
+}
