@@ -18,7 +18,7 @@ public class HashMapColor {
         System.out.println(setColors);
         int count=0;
         String  maximum ="",minimum="",same="";
-       
+
 for(String s:setColors){
     for(int i=0;i< colors.length;i++){
         if(s.equalsIgnoreCase(colors[i])){
