@@ -5,6 +5,8 @@ import java.text.SimpleDateFormat;
 public class DateExample {
 
     public static void main(String[] args) {
+
+
         java.util.Date now=new java.util.Date();
         SimpleDateFormat df=new SimpleDateFormat("dd");
         String value=df.format(now);
